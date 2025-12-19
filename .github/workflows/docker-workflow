@@ -1,9 +1,7 @@
 name: Test Docker Action
 
 on:
-  push:
-    branches:
-      - main
+  workflow-dispatch
 
 jobs:
   docker-action-job:
