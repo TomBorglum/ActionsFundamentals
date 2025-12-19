@@ -1,7 +1,7 @@
 name: Test Docker Action
 
 on:
-  workflow-dispatch
+  workflow_dispatch:    
 
 jobs:
   docker-action-job:
